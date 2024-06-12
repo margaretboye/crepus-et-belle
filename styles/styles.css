@@ -103,7 +103,7 @@ body {
 #first-sec{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+     justify-content: space-evenly;
     align-content: center;
     padding: 80px 120px;
     
@@ -112,6 +112,11 @@ body {
 #sec-img{
     width: 80%;
 }
+
+#sec-img:hover{
+    transform: scale(1.1); 
+}
+
 #firstp{
     margin: 20px;
 }
@@ -124,6 +129,7 @@ body {
 #img-div{
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 #header1{
@@ -149,4 +155,28 @@ body {
     text-align: center;
     color:#8BC34A;
     font-weight: bold;
+}
+
+#opening-hours{
+   text-align: center;
+   border: 1px solid black;
+   /* position: relative; */
+   /* width: 100%; */
+   /* min-height: 1px; */
+   /* padding-right: 15px; */
+   /* padding-left: 15px; */
+}
+
+#t1{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+ 
+.time{
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.time-span{
+    display: block;
 }
