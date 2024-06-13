@@ -106,11 +106,13 @@ body {
      justify-content: space-evenly;
     align-content: center;
     padding: 80px 120px;
+    height: 90%;
     
 }
 
 #sec-img{
     width: 80%;
+    height: 100%;
 }
 
 #sec-img:hover{
@@ -121,6 +123,15 @@ body {
     margin: 20px;
 }
 
+#test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+
 .flex-item{
     flex: 1 ;
     /* padding: 0 50px 0 30px; */
@@ -129,6 +140,7 @@ body {
 #img-div{
     display: flex;
     justify-content: center;
+    align-content: center;
     overflow: hidden;
 }
 
@@ -158,13 +170,10 @@ body {
 }
 
 #opening-hours{
+   /* align-self: center; */
    text-align: center;
-   border: 1px solid black;
-   /* position: relative; */
-   /* width: 100%; */
-   /* min-height: 1px; */
-   /* padding-right: 15px; */
-   /* padding-left: 15px; */
+   border: 1px solid #DEE2E6;
+   padding-top: 10px;
 }
 
 #t1{
@@ -179,4 +188,8 @@ body {
 
 .time-span{
     display: block;
+}
+
+#box{
+    
 }
