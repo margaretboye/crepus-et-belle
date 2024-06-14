@@ -1,0 +1,14 @@
+.swiper {
+    width: 70%;
+    height: 50%;
+  }
+
+  .swiper-slide {
+    overflow: hidden;
+  }
+
+  .swiper-zoom-container img{
+    width: 70%;
+    height: 50%;
+  }
+  
